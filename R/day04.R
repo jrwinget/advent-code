@@ -15,11 +15,13 @@ passports <- input %>%
   filter(field %in% required)
 
 # part 1 solution
+# count the number of passports with all required fields
 passports %>% 
   count(passport) %>% 
   summarize(solution = sum(n == 7))
 
 # part 2 solution
+# count the number of passports with all required fields and valid values
 passports %>% 
   extract(value, c("height", "unit"), "(\\d+)(cm|in)", 
           convert = TRUE, remove = FALSE) %>% 
