@@ -18,5 +18,4 @@ passwords %>%
   mutate(letter_count = (str_sub(password, min, min) == letter) +
            (str_sub(password, max, max) == letter)
   ) %>% 
-  filter(letter_count == 1) %>% 
-  nrow()
+  summarize(solution = sum(letter_count == 1))

@@ -1,7 +1,7 @@
 library(tidyverse)
 
 # read data
-input <- read.delim("data/day03.txt", header = FALSE, stringsAsFactors = FALSE)
+input <- read_csv("data/day03.txt", col_names = FALSE)
 
 # function to count number of trees given slope
 n_trees <- function(

@@ -22,5 +22,4 @@ answers %>%
 # what is the sum of those counts?
 answers %>% 
   count(group, x, group_total) %>% 
-  filter(n == group_total) %>% 
-  nrow()
+  summarize(solution = sum(n == group_total))
