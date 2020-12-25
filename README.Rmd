@@ -1,0 +1,47 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r badges, echo = FALSE}
+badge_stars <- function(color = "green", url = NULL, cookie = Sys.getenv("ADVENT_COOKIE")) {
+  
+  req <- httr::GET(
+    glue::glue('https://adventofcode.com/'),
+    httr::add_headers(
+      .headers = c(
+        "user-agent" = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36",
+        "cookie" = paste0("session=", cookie)
+        )
+      )
+    )
+  
+  parsed <- xml2::read_html(req)
+  stars <- rvest::html_node(parsed, ".user")
+  star_text <- rvest::html_text(stars)
+  badge <- paste0("![](https://img.shields.io/badge/", "star count", "-", star_text, "-", color, ".svg)")
+  
+  if (is.null(url))
+    return(badge)
+  
+  paste0("[", badge, "](", url, ")")
+}
+```
+
+# Advent of Code
+
+<!-- badges: start -->
+`r badge_stars()`
+<!-- badges: end -->
+
+This is my personal repo for the Advent of Code 2020 solutions. I'm using this to brush up on programming concepts and to just have fun. I'm also using a custom repo badge that scrapes a user's Advent of Code star count and displays it as a badge.
+
+Feel free to get in touch if you have any questions!
