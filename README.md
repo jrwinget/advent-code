@@ -5,7 +5,7 @@
 
 <!-- badges: start -->
 
-![](https://img.shields.io/badge/star%20count-@_jwinget%2026*-green.svg)
+![](https://img.shields.io/badge/star%20count-@_jwinget%2028*-green.svg)
 <!-- badges: end -->
 
 This is my personal repo for the Advent of Code 2020 solutions. I’m
