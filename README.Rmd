@@ -42,6 +42,6 @@ badge_stars <- function(color = "green", url = NULL, cookie = Sys.getenv("ADVENT
 `r badge_stars()`
 <!-- badges: end -->
 
-This is my personal repo for the Advent of Code 2020 solutions. I'm using this to brush up on programming concepts and to just have fun. I'm also using a custom repo badge that scrapes a user's Advent of Code star count and displays it as a badge.
+This is my personal repo for the Advent of Code solutions. I'm using this to brush up on programming concepts and to just have fun. I'm also using a custom repo badge that scrapes a user's Advent of Code star count and displays it as a badge.
 
 Feel free to get in touch if you have any questions!
