@@ -12,7 +12,7 @@ knitr::opts_chunk$set(
 ```
 
 ```{r badges, echo = FALSE}
-badge_stars <- function(color = "green", url = NULL, cookie = Sys.getenv("ADVENT_COOKIE")) {
+badge_stars <- function(color = "green", url = NULL, cookie = Sys.getenv("ADVENT_COOKIE_2021")) {
   
   req <- httr::GET(
     glue::glue('https://adventofcode.com/'),
@@ -27,7 +27,7 @@ badge_stars <- function(color = "green", url = NULL, cookie = Sys.getenv("ADVENT
   parsed <- xml2::read_html(req)
   stars <- rvest::html_node(parsed, ".user")
   star_text <- rvest::html_text(stars)
-  badge <- paste0("![](https://img.shields.io/badge/", "star count", "-", star_text, "-", color, ".svg)")
+  badge <- paste0("![](https://img.shields.io/badge/", "2021 star count", "-", star_text, "-", color, ".svg)")
   
   if (is.null(url))
     return(badge)
@@ -42,6 +42,11 @@ badge_stars <- function(color = "green", url = NULL, cookie = Sys.getenv("ADVENT
 `r badge_stars()`
 <!-- badges: end -->
 
-This is my personal repo for the Advent of Code solutions. I'm using this to brush up on programming concepts and to just have fun. I'm also using a custom repo badge that scrapes a user's Advent of Code star count and displays it as a badge.
+This repo contains all of my Advent of Code solutions using R. I'm using this to practice programming and problem-based solutions, but it's mostly for a little holiday fun. I'm also using a custom repo badge that scrapes a user's Advent of Code star count and displays it as a badge.
 
-Feel free to get in touch if you have any questions!
+## Solutions so far
+### [2020](R/2020) | [2021](R/2021) 
+
+| Day | Puzzle | Solution | Data 
+| :---: | :---: | :---: | :---: | 
+| 1 | [Sonar Sweep](https://adventofcode.com/2021/day/1) | [R](R/2021/day01.R) | [Puzzle input](data/2021/day01.txt)

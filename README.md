@@ -5,12 +5,18 @@
 
 <!-- badges: start -->
 
-![](https://img.shields.io/badge/star%20count-@_jwinget%2030*-green.svg)
+![](https://img.shields.io/badge/2021%20star%20count-@_jwinget%202*-green.svg)
 <!-- badges: end -->
 
-This is my personal repo for the Advent of Code 2020 solutions. I’m
-using this to brush up on programming concepts and to just have fun. I’m
-also using a custom repo badge that scrapes a user’s Advent of Code star
-count and displays it as a badge.
+This repo contains all of my Advent of Code solutions using R. I’m using
+this to practice programming and problem-based solutions, but it’s
+mostly for a little holiday fun. I’m also using a custom repo badge that
+scrapes a user’s Advent of Code star count and displays it as a badge.
 
-Feel free to get in touch if you have any questions\!
+## Solutions so far
+
+### [2020](R/2020) \| [2021](R/2021)
+
+| Day |                       Puzzle                       |      Solution       |                Data                 |
+|:---:|:--------------------------------------------------:|:-------------------:|:-----------------------------------:|
+|  1  | [Sonar Sweep](https://adventofcode.com/2021/day/1) | [R](R/2021/day01.R) | [Puzzle input](data/2021/day01.txt) |
