@@ -5,7 +5,7 @@
 
 <!-- badges: start -->
 
-![](https://img.shields.io/badge/2021%20star%20count-@_jwinget%206*-green.svg)
+![](https://img.shields.io/badge/2021%20star%20count-@_jwinget%208*-green.svg)
 <!-- badges: end -->
 
 This repo contains all of my Advent of Code solutions using R. I’m using
@@ -22,3 +22,4 @@ scrapes a user’s Advent of Code star count and displays it as a badge.
 |  1  |    [Sonar Sweep](https://adventofcode.com/2021/day/1)    | [R](R/2021/day01.R) | [Puzzle input](data/2021/day01.txt) |
 |  2  |       [Dive!](https://adventofcode.com/2021/day/2)       | [R](R/2021/day02.R) | [Puzzle input](data/2021/day02.txt) |
 |  3  | [Binary Diagnostic](https://adventofcode.com/2021/day/3) | [R](R/2021/day03.R) | [Puzzle input](data/2021/day03.txt) |
+|  4  |    [Giant Squid](https://adventofcode.com/2021/day/4)    | [R](R/2021/day04.R) | [Puzzle input](data/2021/day04.txt) |
