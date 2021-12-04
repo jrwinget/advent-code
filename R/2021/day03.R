@@ -1,5 +1,3 @@
-library(tidyverse)
-
 # read data
 input <- read.fwf("data/2021/day03.txt", widths = rep(1, 12))
 
