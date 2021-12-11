@@ -5,7 +5,7 @@
 
 <!-- badges: start -->
 
-![](https://img.shields.io/badge/2021%20star%20count-@_jwinget%2014*-green.svg)
+![](https://img.shields.io/badge/2021%20star%20count-@_jwinget%2016*-green.svg)
 <!-- badges: end -->
 
 This repo contains all of my Advent of Code solutions using R. I’m using
@@ -25,4 +25,5 @@ scrapes a user’s Advent of Code star count and displays it as a badge.
 |  4  |       [Giant Squid](https://adventofcode.com/2021/day/4)       | [R](R/2021/day04.R) | [Puzzle input](data/2021/day04.txt) |
 |  5  |  [Hydrothermal Venture](https://adventofcode.com/2021/day/5)   | [R](R/2021/day05.R) | [Puzzle input](data/2021/day05.txt) |
 |  6  |       [Lanternfish](https://adventofcode.com/2021/day/6)       | [R](R/2021/day06.R) | [Puzzle input](data/2021/day06.txt) |
-|  6  | [The Treachery of Whales](https://adventofcode.com/2021/day/7) | [R](R/2021/day07.R) | [Puzzle input](data/2021/day07.txt) |
+|  7  | [The Treachery of Whales](https://adventofcode.com/2021/day/7) | [R](R/2021/day07.R) | [Puzzle input](data/2021/day07.txt) |
+|  8  |  [Seven Segment Search](https://adventofcode.com/2021/day/8)   | [R](R/2021/day08.R) | [Puzzle input](data/2021/day08.txt) |
