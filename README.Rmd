@@ -60,3 +60,4 @@ This repo contains all of my Advent of Code solutions using R. I'm using this to
 | 9  | [Smoke Basin](https://adventofcode.com/2021/day/9) | [R](R/2021/day09.R) | [Puzzle input](data/2021/day09.txt)
 | 10 | [Syntax Scoring](https://adventofcode.com/2021/day/10) | [R](R/2021/day10.R) | [Puzzle input](data/2021/day10.txt)
 | 11 | [Dumbo Octopus](https://adventofcode.com/2021/day/11) | [R](R/2021/day11.R) | [Puzzle input](data/2021/day11.txt)
+| 12 | [Passage Pathing](https://adventofcode.com/2021/day/12) | [R](R/2021/day12.R) | [Puzzle input](data/2021/day12.txt)
