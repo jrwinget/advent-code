@@ -49,4 +49,5 @@ This repo contains all of my Advent of Code solutions using R. I'm using this to
 
 | Day | Puzzle | Solution | Data |
 | :---: | :---: | :---: | :---: | 
-| 1  | [Calorie Counting](https://adventofcode.com/2022/day/1) | [R](R/2022/day01.R) | [Puzzle input](data/2022/day01.txt)
+| 1 | [Calorie Counting](https://adventofcode.com/2022/day/1) | [R](R/2022/day01.R) | [Puzzle input](data/2022/day01.txt)
+| 2 | [Rock Paper Scissors](https://adventofcode.com/2022/day/2) | [R](R/2022/day02.R) | [Puzzle input](data/2022/day02.txt)
