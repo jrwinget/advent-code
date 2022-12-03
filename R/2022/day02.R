@@ -1,5 +1,4 @@
-library(tidyverse)
-
+# read data
 input <- read.delim("data/2022/day02.txt", sep = " ", header = FALSE) |> 
   transform(V1 = match(V1, LETTERS), V2 = match(V2, LETTERS) - 23)
 
