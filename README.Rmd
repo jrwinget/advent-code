@@ -12,7 +12,7 @@ knitr::opts_chunk$set(
 ```
 
 ```{r badges, echo = FALSE}
-badge_stars <- function(color = "green", url = NULL, cookie = Sys.getenv("ADVENT_COOKIE_2022")) {
+badge_stars <- function(color = "green", url = NULL, cookie = Sys.getenv("ADVENT_COOKIE_2023")) {
   
   req <- httr::GET(
     glue::glue('https://adventofcode.com/'),
@@ -27,7 +27,7 @@ badge_stars <- function(color = "green", url = NULL, cookie = Sys.getenv("ADVENT
   parsed <- xml2::read_html(req)
   stars <- rvest::html_node(parsed, ".user")
   star_text <- rvest::html_text(stars)
-  badge <- paste0("![](https://img.shields.io/badge/", "2022 star count", "-", star_text, "-", color, ".svg)")
+  badge <- paste0("![](https://img.shields.io/badge/", "2023 star count", "-", star_text, "-", color, ".svg)")
   
   if (is.null(url))
     return(badge)
@@ -45,15 +45,8 @@ badge_stars <- function(color = "green", url = NULL, cookie = Sys.getenv("ADVENT
 This repo contains all of my Advent of Code solutions using R. I'm using this to practice programming and problem-based solutions, but it's mostly for a little holiday fun. I'm also using a custom repo badge that scrapes a user's Advent of Code star count and displays it as a badge.
 
 ## Solutions so far
-### [2022](R/2022) | [2021](R/2021) | [2020](R/2020)
+### [2023](R/2023) | [2022](R/2022) | [2021](R/2021) | [2020](R/2020)
 
 | Day | Puzzle | Solution | Data |
 | :---: | :---: | :---: | :---: | 
-| 1 | [Calorie Counting](https://adventofcode.com/2022/day/1) | [R](R/2022/day01.R) | [Puzzle input](data/2022/day01.txt)
-| 2 | [Rock Paper Scissors](https://adventofcode.com/2022/day/2) | [R](R/2022/day02.R) | [Puzzle input](data/2022/day02.txt)
-| 3 | [Rucksack Reorganization](https://adventofcode.com/2022/day/3) | [R](R/2022/day03.R) | [Puzzle input](data/2022/day03.txt)
-| 4 | [Camp Cleanup](https://adventofcode.com/2022/day/4) | [R](R/2022/day04.R) | [Puzzle input](data/2022/day04.txt)
-| 5 | [Supply Stacks](https://adventofcode.com/2022/day/5) | [R](R/2022/day05.R) | [Puzzle input](data/2022/day05.txt)
-| 6 | [Tuning Trouble](https://adventofcode.com/2022/day/6) | [R](R/2022/day06.R) | [Puzzle input](data/2022/day06.txt)
-| 7 | [No Space Left On Device](https://adventofcode.com/2022/day/7) | [R](R/2022/day07.R) | [Puzzle input](data/2022/day07.txt)
-| 8 | [Treetop Tree House](https://adventofcode.com/2022/day/8) | [R](R/2022/day08.R) | [Puzzle input](data/2022/day08.txt)
+| 1 | [TBD](https://adventofcode.com/2023/day/1) | [R](R/2023/day01.R) | [Puzzle input](data/2023/day01.txt)
