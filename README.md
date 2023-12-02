@@ -5,7 +5,7 @@
 
 <!-- badges: start -->
 
-![](https://img.shields.io/badge/2023%20star%20count-jrwinget%202*-green.svg)
+![](https://img.shields.io/badge/2023%20star%20count-jrwinget%204*-green.svg)
 <!-- badges: end -->
 
 This repo contains all of my Advent of Code solutions using R. I’m using
@@ -17,6 +17,7 @@ scrapes a user’s Advent of Code star count and displays it as a badge.
 
 ### [2023](R/2023) \| [2022](R/2022) \| [2021](R/2021) \| [2020](R/2020)
 
-| Day |                       Puzzle                       |      Solution       |                Data                 |
-|:---:|:--------------------------------------------------:|:-------------------:|:-----------------------------------:|
-|  1  | [Trebuchet?!](https://adventofcode.com/2023/day/1) | [R](R/2023/day01.R) | [Puzzle input](data/2023/day01.txt) |
+| Day |                        Puzzle                         |      Solution       |                Data                 |
+|:---:|:-----------------------------------------------------:|:-------------------:|:-----------------------------------:|
+|  1  |  [Trebuchet?!](https://adventofcode.com/2023/day/1)   | [R](R/2023/day01.R) | [Puzzle input](data/2023/day01.txt) |
+|  2  | [Cube Conundrum](https://adventofcode.com/2023/day/2) | [R](R/2023/day02.R) | [Puzzle input](data/2023/day02.txt) |
