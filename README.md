@@ -5,7 +5,7 @@
 
 <!-- badges: start -->
 
-![](https://img.shields.io/badge/2024%20star%20count-jrwinget-green.svg)
+![](https://img.shields.io/badge/2024%20star%20count-jrwinget%201*-green.svg)
 <!-- badges: end -->
 
 This repo contains all of my Advent of Code solutions using R. I’m using
