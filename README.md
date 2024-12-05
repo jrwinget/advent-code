@@ -5,7 +5,7 @@
 
 <!-- badges: start -->
 
-![](https://img.shields.io/badge/2024%20star%20count-jrwinget%201*-green.svg)
+![](https://img.shields.io/badge/2024%20star%20count-jrwinget%204*-green.svg)
 <!-- badges: end -->
 
 This repo contains all of my Advent of Code solutions using R. I’m using
@@ -19,4 +19,5 @@ scrapes a user’s Advent of Code star count and displays it as a badge.
 
 | Day | Puzzle | Solution | Data |
 |:--:|:--:|:--:|:--:|
-| 1 | [Historian Hysteria](https://adventofcode.com/2024/day/1) | [R](R/2024/) | [Puzzle input](data/2024/) |
+| 1 | [Historian Hysteria](https://adventofcode.com/2024/day/1) | [R](R/2024/day01.R) | [Puzzle input](data/2024/day01.txt) |
+| 1 | [Historian Hysteria](https://adventofcode.com/2024/day/2) | [R](R/2024/day02.R) | [Puzzle input](data/2024/day02.txt) |
