@@ -6,15 +6,15 @@ input <- read_lines("data/2024/day03.txt")
 # part 1 solution
 # what is the sum of the results of the multiplications?
 str_extract_all(input, "mul\\(\\d+,\\d+\\)") |>
-unlist() |>
-str_match("mul\\((\\d+),(\\d+)\\)") |>
-as_tibble() |>
-mutate(
-  x = as.numeric(V2),
-  y = as.numeric(V3),
-  product = x * y
-) |>
-summarize(total = sum(product, na.rm = TRUE))
+  unlist() |>
+  str_match("mul\\((\\d+),(\\d+)\\)") |>
+  as_tibble() |>
+  mutate(
+    x = as.numeric(V2),
+    y = as.numeric(V3),
+    product = x * y
+  ) |>
+  summarize(total = sum(product, na.rm = TRUE))
 
 # part 2 solution
 # what is the sum of the results of just the enabled multiplications?

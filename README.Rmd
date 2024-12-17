@@ -2,8 +2,6 @@
 output: github_document
 ---
 
-<!-- README.md is generated from README.Rmd. Please edit that file -->
-
 ```{r, include = FALSE}
 knitr::opts_chunk$set(
   collapse = TRUE,
@@ -52,3 +50,7 @@ This repo contains all of my Advent of Code solutions using R. I'm using this to
 | 1 | [Historian Hysteria](https://adventofcode.com/2024/day/1) | [R](R/2024/day01.R) | [Puzzle input](data/2024/day01.txt)
 | 1 | [Red-Nosed Reports](https://adventofcode.com/2024/day/2) | [R](R/2024/day02.R) | [Puzzle input](data/2024/day02.txt)
 | 1 | [Mull It Over](https://adventofcode.com/2024/day/3) | [R](R/2024/day03.R) | [Puzzle input](data/2024/day03.txt)
+| 1 | [Ceres Search](https://adventofcode.com/2024/day/4) | [R](R/2024/day04.R) | [Puzzle input](data/2024/day04.txt)
+| 1 | [Print Queue](https://adventofcode.com/2024/day/5) | [R](R/2024/day05.R) | [Puzzle input](data/2024/day05.txt)
+| 1 | [Guard Gallivant](https://adventofcode.com/2024/day/6) | [R](R/2024/day06.R) | [Puzzle input](data/2024/day06.txt)
+| 1 | [Bridge Repair](https://adventofcode.com/2024/day/7) | [R](R/2024/day07.R) | [Puzzle input](data/2024/day07.txt)
